@@ -5,11 +5,13 @@
   "author": "Elchin Zakziadeh",
   "license": "ISC",
   "devDependencies": {
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.3"
   },
   "scripts": {
     "start": "npm run compile && npm run run",
     "run": "node index.js",
-    "compile": "tsc"
+    "compile": "tsc",
+    "watch": "tsnd --respawn index.ts"
   }
 }
