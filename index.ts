@@ -12,3 +12,15 @@
 // list.clear();
 // console.log(list.getSize());
 // console.log(list.print());
+
+/**
+ * Stack
+ */
+
+// import Stack from "./src/Stack";
+// const stack = new Stack(5);
+// stack.push(1);
+// console.log(stack.pop());
+// console.log(stack.peek());
+// console.log(stack.isEmpty());
+// console.log(stack.print());
