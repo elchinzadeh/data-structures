@@ -24,3 +24,17 @@
 // console.log(stack.peek());
 // console.log(stack.isEmpty());
 // console.log(stack.print());
+
+/**
+ * Queue
+ */
+import Queue from "./src/Queue";
+
+const queue = new Queue(5);
+
+// queue.enqueue(1);
+// queue.dequeue();
+// console.log(queue.isEmpty());
+// console.log(queue.isFull());
+// console.log(queue.getFront());
+// console.log(queue.getRear());
